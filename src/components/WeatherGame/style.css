@@ -1,0 +1,28 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20vh auto;
+  text-align: center;
+}
+
+.input-guess {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0.3rem 0;
+  margin: 2vh 0;
+}
+
+.submit-guess {
+  width: 30%;
+  padding: 0.8rem 1rem;
+  margin: 0 auto;
+}
+
+.guessed-countries {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

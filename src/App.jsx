@@ -1,5 +1,11 @@
+import WeatherGame from "./components/WeatherGame";
+
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <WeatherGame />
+    </div>
+  );
 }
 
 export default App;
